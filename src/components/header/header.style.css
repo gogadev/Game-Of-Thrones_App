@@ -1,0 +1,40 @@
+.header-details {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.title {
+  width: 100vw;
+  background: whitesmoke;
+  border-bottom: 3px solid lightgoldenrodyellow;
+}
+
+.subtitle {
+  width: 100%;
+  margin: 1.5rem auto;
+  background: lightgoldenrodyellow;
+  padding: 0.2rem;
+  color: goldenrod;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.title-img {
+  width: 28%;
+}
+
+.crown-img {
+  width: 15%;
+  margin: 1rem auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .title-img {
+    width: 70%;
+  }
+  .crown-img {
+    width: 35%;
+  }
+}
